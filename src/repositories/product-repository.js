@@ -30,8 +30,8 @@ exports.getByTag = async (tag) => {
 };
 
 exports.create = async (data) => {
-  var product = new Product(data).save();
-  await product;
+  var product = new Product(data);
+  await product.save();
 };
 
 exports.update = async (id, data) => {
