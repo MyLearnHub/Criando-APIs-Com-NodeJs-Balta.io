@@ -16,6 +16,7 @@ const schema = new Schema({
   price: { type: Number, required: true },
   active: { type: Boolean, required: true, default: true },
   tags: [{ type: String, required: true }],
+  image: { type: String, required: true, trim: true },
 });
 
 module.exports = mongoose.model("Product", schema);
