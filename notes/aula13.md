@@ -10,5 +10,5 @@ mLab:
 studio3t:
 `https://studio3t.com/`
 
-Robo Mongo:
+Robo 3T:
 `https://robomongo.org/`
